@@ -2,7 +2,7 @@
   "name": "server",
   "type": "module",
   "scripts": {
-    "migrate:check": "mikro-orm-esm migration:check"
+    "migration:check": "mikro-orm-esm migration:check"
   },
   "keywords": [],
   "author": "",
