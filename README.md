@@ -3,6 +3,7 @@
 To repro:
 
 ```
+$ npm install
 $ npm run migration:check
 ...
 MetadataError: Entity '{ id: `address-${import("/Users/zach/mikro-orm-ref-repro/src/entities/address.entity").UUID}`; } & import("/Users/zach/mikro-orm-ref-repro/node_modules/@mikro-orm/postgresql/index").Reference<Address & object>' was not discovered, please make sure to provide it in 'entities' array when initializing the ORM (used in Person.homeAddress)
