@@ -1,6 +1,10 @@
 # MikroORM repro for Ref with branded primary key
 
-To repro:
+Github issue: https://github.com/mikro-orm/mikro-orm/issues/6232
+
+## UPDATE: fix is [here](https://github.com/zachkirsch/mikro-orm-ref-repro/pull/1)
+
+## Original repro:
 
 ```
 $ npm install
