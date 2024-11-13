@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "type": "module",
+  "scripts": {
+    "migrate:check": "mikro-orm-esm migration:check"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "@mikro-orm/core": "6.4.0",
+    "@mikro-orm/postgresql": "6.4.0",
+    "@mikro-orm/reflection": "6.4.0",
+    "@mikro-orm/migrations": "6.4.0",
+    "@mikro-orm/cli": "6.4.0",
+    "core-js": "3.37.1",
+    "typescript": "^5.5.4",
+    "ts-node": "^10.9.2"
+  },
+  "mikro-orm": {
+    "useTsNode": true
+  }
+}
