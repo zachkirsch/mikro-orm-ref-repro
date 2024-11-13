@@ -6,6 +6,6 @@ export class Person {
   @PrimaryKey()
   id!: string;
 
-  @ManyToOne({ nullable: true })
+  @ManyToOne(() => Address, { nullable: true })
   homeAddress!: Ref<Address> | null;
 }
